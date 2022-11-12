@@ -5,6 +5,7 @@ using namespace std ;
  * get the value
  * and we just use the formela (n*(n+1))/2 to get the summation
  * and then print it
+ Prepared By: Ahmed Mohsen (group 8)
  */
 int main (){
 long long n ;
