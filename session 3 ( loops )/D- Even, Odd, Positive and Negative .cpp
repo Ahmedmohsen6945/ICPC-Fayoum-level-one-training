@@ -7,7 +7,8 @@ using namespace std ;
  * make a condition for the loop from one to the given number ( 1 : n )
  * get integer from user in every iteration
  * and if this integer is less than 1400 print division 4 and if it greater than or equal to 1400 and less than 1600 print division 3 and if it greater than or equal to 1600 and less than 1900 print division 3 else print division 1
- */
+Prepared By: Ahmed Mohsen (group 8)
+*/
 int main () {
     int n, num ;
     cin >> n;
