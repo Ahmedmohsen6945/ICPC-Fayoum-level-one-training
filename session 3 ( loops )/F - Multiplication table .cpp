@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std ;
 /*                           Multiplication table
- * at first we need to in declare three integer variables one of them to get the number of integers from user.
+ * at first we need to in declare an integer variables get the number of multiplication table.
  * get the number of the multiplication table.
  * we can implement any type of loops ( while , for , do while ).
  * make a condition for the loop from one to the twelve ( 1 : 12 ).
