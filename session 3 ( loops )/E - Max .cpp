@@ -2,7 +2,7 @@
 using namespace std ;
 /*                           Max
  * at first we need to in declare three integer variables one of them to get the number of integers from user , another one to get the integers in the loop and another one and initialize it with some negative value like (-1).
- * number of integers from user.
+ * get the number of integers from user.
  * we can implement any type of loops ( while , for , do while ).
  * make a condition for the loop from one to the given number ( 1 : n ).
  * get integer from user in every iteration.
