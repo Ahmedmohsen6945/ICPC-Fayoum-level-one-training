@@ -3,13 +3,13 @@ using namespace std ;
 /*                           Summation from 1 to N Hard ( mathematical solution and super efficient )
  * at first we need to in declare integer variable to get the value from user.
  * get the value.
- * and we just use the formela (n*(n+1))/2 to get the summation.
- * and then print it.
- Prepared By: Ahmed Mohsen (group 8).
- */
-int main (){
-long long n ;
-cin >> n ;
+ * and we just use the formula (n*(n+1))/2 to get the summation. ---->  /// the proof of the mentioned formula as follows:
+ * and then print it.                                                   /// if we want the summation of the first n numbers 
+ Prepared By: Ahmed Mohsen (group 8).                                   /// S(n)=1+2+3+....+(n-1)+n   ///S(n)=n+(n-1)+....+3+2+1
+ */                                                                     /// now add Now add the two series together term by term.
+int main (){                                                            /// 2 S(n) = (n+1) + (n-1+2) + (n-2+3) + … + (3+n-2) + (2+n-1) + (1+n) = (n+1) + (n+1) + (n+1) + … + (n+1) + (n +1) + (n+1) = n(n+1)
+long long n ;                                                           /// so s(n) = (n*(n+1))/2  
+cin >> n ;                                                           
 cout << (n *( n + 1)) /2 ;
 }
 /*                           Summation from 1 to N Hard ( the easy way but not efficient )
