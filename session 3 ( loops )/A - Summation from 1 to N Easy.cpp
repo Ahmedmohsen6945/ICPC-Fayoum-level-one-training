@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std ;
-/*                           Summation from 1 to N Hard ( the easy way but not efficient )
+/*                           Summation from 1 to N easy
  * at first we need to in declare integer variable to get the value from user.
  * get the value.
  * we can implement any type of loops ( while , for , do while ).
