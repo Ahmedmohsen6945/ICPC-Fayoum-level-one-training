@@ -1,19 +1,20 @@
 #include <iostream>
 using namespace std ;
-
-/*                           Summation from 1 to N Easy
- * at first we need to in declare an integer variable to get the value from user.
+/*                           Summation from 1 to N Hard ( the easy way but not efficient )
+ * at first we need to in declare integer variable to get the value from user.
  * get the value.
  * we can implement any type of loops ( while , for , do while ).
- * make a condition for the loop from one to the given number.
- * print the counter of the loop in it's body and don't forget (<< endl ;) at the end of the line.
- Prepared By: Ahmed Mohsen (group 8).
- */
-
+ * we need too another variable of long long type  initialize it with zero.
+ * make a condition for the loop from one to the given number ( 1 : n ).
+ * print the summation of all numbers form one to the given number.
+*/
 int main()
 {
-int n ;
+long long n , sum = 0  ;
 cin >> n ;
-for (int i = 1 ; i <= n ; i++ )
-    cout << i << endl ;
+for (int i = 1 ; i <= n ; i++ ) {
+    sum += i;
 }
+cout << sum ;
+}
+ 
