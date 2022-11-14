@@ -4,7 +4,7 @@
      * at first we need to in declare an integer variable to get the number
      * get the number from the user.
      * at this problem we can slove it without using loops at all as follows.
-     * as we can see the range of the possible number you will get it from the user is from 1 to 1000, and as you know if we want to divid number (a) by (b) then the maximum possible value for (b) is (a) .
+     * as we can see the range of the possible number you will get from the user is from 1 to 1000, and as you know if we want to divid number (a) by (b) then the maximum possible value for (b) is (a) .
      * if you notice, the number of lucky numbers in that range is 14 (4 , 7 , 44 , 74 , 47 , 77 , 444 , 447 , 474 , 477 , 744 , 747 , 774 , 777) , so if the given number is divisible by any of the previous numbers then it's absolutely an almost lucky number .
      * so we will use conditions only.
      * Prepared By: Ahmed Mohsen (group 8).
